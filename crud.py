@@ -57,6 +57,7 @@ def remover_alunos(id_aluno):
         finally:
             cursor.close()
             conexao.close()
+            
 
 
 
