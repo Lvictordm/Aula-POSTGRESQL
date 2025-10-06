@@ -2,10 +2,8 @@ import psycopg2 as pg
 from dotenv import load_dotenv
 import os
 
-
 #Carregar variaveis do .env
 load_dotenv()
-
 
 params={
     "dbname": os.getenv("DB_NAME"),
